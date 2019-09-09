@@ -18,7 +18,7 @@
     "lint": "eslint '**/*.{js,ts,jsx,tsx}'",
     "lint:fix": "npm-run-all 'lint -- --fix'",
     "format": "prettier --write '**/*.{json,md}'",
-    "test": "jest"
+    "test": "renovate-config-validator && jest"
   },
   "husky": {
     "hooks": {

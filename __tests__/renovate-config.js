@@ -12,3 +12,8 @@ test("renovate-config is present", () => {
   const { renovateConfig } = setup();
   expect(renovateConfig).toBeDefined();
 });
+
+test("default config is present", () => {
+  const { renovateConfig } = setup();
+  expect(renovateConfig.default).toBeDefined();
+});
