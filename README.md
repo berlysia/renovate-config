@@ -2,16 +2,6 @@
 
 > renovate config for myself
 
-## Install
-
-```sh
-$ yarn add --dev @berlysia/renovate-config
-```
-
-```sh
-$ npm install --save-dev @berlysia/renovate-config
-```
-
 ## Config
 
 ```json
@@ -19,3 +9,5 @@ $ npm install --save-dev @berlysia/renovate-config
   "extends": ["@berlysia"]
 }
 ```
+
+**You don't have to install via package managers. Renovate will resolve it.**
