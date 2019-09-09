@@ -1,6 +1,6 @@
 {
   "name": "@berlysia/renovate-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "renovate config for myself",
   "author": "berlysia <berlysia@gmail.com>",
   "license": "MIT",
