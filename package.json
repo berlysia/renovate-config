@@ -26,14 +26,14 @@
     }
   },
   "devDependencies": {
-    "@berlysia/eslint-config": "^0.6.1",
-    "eslint": "^6.3.0",
-    "husky": "^3.0.5",
-    "jest": "^24.9.0",
-    "lint-staged": "^9.2.5",
-    "npm-run-all": "^4.1.5",
-    "prettier": "^1.18.2",
-    "renovate": "^19.40.2"
+    "@berlysia/eslint-config": "0.6.1",
+    "eslint": "6.3.0",
+    "husky": "3.0.5",
+    "jest": "24.9.0",
+    "lint-staged": "9.2.5",
+    "npm-run-all": "4.1.5",
+    "prettier": "1.18.2",
+    "renovate": "19.40.2"
   },
   "renovate-config": {
     "default": {
