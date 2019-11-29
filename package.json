@@ -47,6 +47,7 @@
         ":maintainLockFilesMonthly",
         ":rebaseStalePrs",
         ":timezone(Asia/Tokyo)",
+        ":pinAllExceptPeerDependencies",
         "group:allNonMajor",
         "group:definitelyTyped",
         "group:linters",
