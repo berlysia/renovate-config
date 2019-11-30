@@ -39,6 +39,7 @@
     "default": {
       "extends": [
         "config:base",
+        ":assignee(berlysia)",
         ":automergeLinters",
         ":automergeMinor",
         ":automergeTypes",
