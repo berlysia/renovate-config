@@ -27,13 +27,13 @@
   },
   "devDependencies": {
     "@berlysia/eslint-config": "0.8.3",
-    "eslint": "6.7.2",
+    "eslint": "6.8.0",
     "husky": "3.1.0",
     "jest": "24.9.0",
     "lint-staged": "9.5.0",
     "npm-run-all": "4.1.5",
     "prettier": "1.19.1",
-    "renovate": "19.83.0"
+    "renovate": "19.89.1"
   },
   "renovate-config": {
     "default": {
