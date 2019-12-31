@@ -26,7 +26,7 @@
     }
   },
   "devDependencies": {
-    "@berlysia/eslint-config": "0.8.3",
+    "@berlysia/eslint-config": "1.2.0",
     "eslint": "6.8.0",
     "husky": "3.1.0",
     "jest": "24.9.0",
