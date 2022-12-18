@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "prettier": "2.8.1",
-    "renovate": "34.54.2"
+    "renovate": "34.63.1"
   },
   "renovate-config": {
     "default": {
