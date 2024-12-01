@@ -9,7 +9,7 @@
     "test": "renovate-config-validator"
   },
   "devDependencies": {
-    "prettier": "3.3.3",
+    "prettier": "3.4.1",
     "renovate": "37.440.7"
   },
   "renovate-config": {
