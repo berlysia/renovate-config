@@ -31,7 +31,23 @@
         "group:linters",
         "group:monorepos",
         "schedule:weekly"
-      ]
+      ],
+      "vulnerabilityAlerts": {
+        "enabled": true,
+        "labels": [
+          "security"
+        ]
+      },
+      "osvVulnerabilityAlerts": true,
+      "packageRules": [
+        {
+          "matchDatasources": [
+            "npm"
+          ],
+          "minimumReleaseAge": "7 days"
+        }
+      ],
+      "internalChecksFilter": "strict"
     }
   }
 }
