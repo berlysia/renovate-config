@@ -15,7 +15,7 @@
   "renovate-config": {
     "default": {
       "extends": [
-        "config:base",
+        "config:recommended",
         ":assignee(berlysia)",
         ":automergeLinters",
         ":automergeMinor",
