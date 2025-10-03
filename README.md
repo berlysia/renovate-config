@@ -6,8 +6,6 @@
 
 ```json
 {
-  "extends": ["@berlysia"]
+  "extends": ["github>berlysia/renovate-config"]
 }
 ```
-
-**You don't have to install via package managers. Renovate will resolve it.**

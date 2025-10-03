@@ -1,0 +1,33 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":assignee(berlysia)",
+    ":automergeLinters",
+    ":automergeMinor",
+    ":automergeTypes",
+    ":ignoreModulesAndTests",
+    ":label(renovate)",
+    ":maintainLockFilesMonthly",
+    ":rebaseStalePrs",
+    ":timezone(Asia/Tokyo)",
+    ":pinAllExceptPeerDependencies",
+    "group:allNonMajor",
+    "group:definitelyTyped",
+    "group:linters",
+    "group:monorepos",
+    "schedule:weekly"
+  ],
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "labels": ["security"]
+  },
+  "osvVulnerabilityAlerts": true,
+  "packageRules": [
+    {
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "7 days"
+    }
+  ],
+  "internalChecksFilter": "strict"
+}

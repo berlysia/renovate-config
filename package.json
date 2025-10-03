@@ -11,43 +11,5 @@
   "devDependencies": {
     "prettier": "3.6.2",
     "renovate": "41.131.9"
-  },
-  "renovate-config": {
-    "default": {
-      "extends": [
-        "config:recommended",
-        ":assignee(berlysia)",
-        ":automergeLinters",
-        ":automergeMinor",
-        ":automergeTypes",
-        ":ignoreModulesAndTests",
-        ":label(renovate)",
-        ":maintainLockFilesMonthly",
-        ":rebaseStalePrs",
-        ":timezone(Asia/Tokyo)",
-        ":pinAllExceptPeerDependencies",
-        "group:allNonMajor",
-        "group:definitelyTyped",
-        "group:linters",
-        "group:monorepos",
-        "schedule:weekly"
-      ],
-      "vulnerabilityAlerts": {
-        "enabled": true,
-        "labels": [
-          "security"
-        ]
-      },
-      "osvVulnerabilityAlerts": true,
-      "packageRules": [
-        {
-          "matchDatasources": [
-            "npm"
-          ],
-          "minimumReleaseAge": "7 days"
-        }
-      ],
-      "internalChecksFilter": "strict"
-    }
   }
 }
