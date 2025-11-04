@@ -27,6 +27,12 @@
     {
       "matchDatasources": ["npm"],
       "minimumReleaseAge": "7 days"
+    },
+    {
+      "matchDatasources": ["github-tags"],
+      "matchManagers": ["github-actions"],
+      "pinDigests": true,
+      "commitMessageExtra": "to {{newVersion}}"
     }
   ],
   "internalChecksFilter": "strict"
