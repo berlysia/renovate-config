@@ -33,6 +33,12 @@
       "matchManagers": ["github-actions"],
       "pinDigests": true,
       "commitMessageExtra": "to {{newVersion}}"
+    },
+    {
+      "description": "Separate GitHub Actions updates to avoid OIDC workflow validation issues",
+      "matchManagers": ["github-actions"],
+      "groupName": "GitHub Actions",
+      "excludeFromGroupNames": ["all non-major dependencies"]
     }
   ],
   "internalChecksFilter": "strict"
