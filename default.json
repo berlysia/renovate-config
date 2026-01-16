@@ -22,7 +22,6 @@
     "enabled": true,
     "labels": ["security"]
   },
-  "osvVulnerabilityAlerts": true,
   "packageRules": [
     {
       "matchDatasources": ["npm"],
