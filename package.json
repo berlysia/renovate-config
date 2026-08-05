@@ -10,6 +10,6 @@
   },
   "devDependencies": {
     "prettier": "3.9.6",
-    "renovate": "42.99.0"
+    "renovate": "43.288.0"
   }
 }
